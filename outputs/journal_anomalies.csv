@@ -1,0 +1,9 @@
+﻿Société,Période,Feuille,Type d'anomalie,Observation,Statut
+SETAO CI,2011-2013,Bilan / Compte de résultat,Forte variation,Actif et chiffre d'affaires en forte hausse après plusieurs années d'activité quasi nulle,À vérifier
+CIE CI,2020,Compte de résultat,Rupture de série,Chiffre d'affaires divisé par 3 sans baisse du résultat net,À vérifier
+CIE CI,2021,Bilan,Valeur atypique,"Actif courant et passif courant chutent d'environ 60 %, puis remontent en 2022",À vérifier
+SITAB,2015-2018,Bilan,Forte variabilité,"Total d'actif très irrégulier (de 22 à 79 Md FCFA), pertes en 2017 et 2018",À vérifier
+TOTAL SENEGAL,2016-2023,Bilan,Totaux absents,Aucun total d'actif ni de passif sur 8 années consécutives,À vérifier
+"BANK OF AFRICA BF, ML, NG",2015,Bilan,Année manquante,Bilan absent pour les trois filiales cette année-là,À vérifier
+"SAFCA CI, SGCI, NSIA BANQUE, MOVIS CI",Plusieurs années,Flux de trésorerie,Données manquantes,Plus de la moitié des 93 années sans flux concernent ces sociétés,À documenter
+Toutes,1998-2025,Bilan,Contrôle réussi,"Actif = passif + capitaux propres sur 1 020 lignes comparables, aucun écart supérieur à 0,1 %",OK
