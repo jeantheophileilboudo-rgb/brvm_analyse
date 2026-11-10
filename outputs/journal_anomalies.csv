@@ -10,3 +10,4 @@ Toutes,1998-2025,Bilan,Contrôle réussi,"Actif = passif + capitaux propres sur 
 SETAO CI,2005,Compte de résultat,Valeur impossible,Chiffre d'affaires négatif (environ -16 millions de FCFA),À vérifier
 NESTLE CI,2016,Toutes les feuilles,Ligne vide,Société-année présente sans aucun montant au bilan ni au compte de résultat,À vérifier
 "NESTLE CI, SMB",2012-2019,Bilan,Capitaux propres quasi nuls,ROE extrême car capitaux propres très faibles : ratio non interprétable,Documenté
+"UNILEVER CI, SETAO CI, NESTLE CI",2006-2021,Bilan / Compte de résultat,ROE supérieur à 100 %,"4 ROE supérieurs à 100 % avec capitaux propres entre 2,6 % et 5,8 % de l'actif : calcul correct mais non représentatif",Documenté
