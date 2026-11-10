@@ -7,3 +7,6 @@ TOTAL SENEGAL,2016-2023,Bilan,Totaux absents,Aucun total d'actif ni de passif su
 "BANK OF AFRICA BF, ML, NG",2015,Bilan,Année manquante,Bilan absent pour les trois filiales cette année-là,À vérifier
 "SAFCA CI, SGCI, NSIA BANQUE, MOVIS CI",Plusieurs années,Flux de trésorerie,Données manquantes,Plus de la moitié des 93 années sans flux concernent ces sociétés,À documenter
 Toutes,1998-2025,Bilan,Contrôle réussi,"Actif = passif + capitaux propres sur 1 020 lignes comparables, aucun écart supérieur à 0,1 %",OK
+SETAO CI,2005,Compte de résultat,Valeur impossible,Chiffre d'affaires négatif (environ -16 millions de FCFA),À vérifier
+NESTLE CI,2016,Toutes les feuilles,Ligne vide,Société-année présente sans aucun montant au bilan ni au compte de résultat,À vérifier
+"NESTLE CI, SMB",2012-2019,Bilan,Capitaux propres quasi nuls,ROE extrême car capitaux propres très faibles : ratio non interprétable,Documenté
