@@ -1,3 +1,48 @@
-# Analyse des sociétés cotées à la BRVM
+# Analyse financière des sociétés cotées à la BRVM (1998-2025)
 
-Projet d'analyse des états financiers des sociétés cotées à la BRVM.
+Projet d'analyse des états financiers de 50 sociétés cotées à la Bourse Régionale des Valeurs Mobilières (BRVM), de 1998 à 2025.
+
+## Données
+
+- 50 sociétés (15 banques et institutions financières, 35 autres), 28 exercices.
+- Trois tableaux : bilan (1 032 lignes), compte de résultat (1 035 lignes), flux de trésorerie (939 lignes).
+- Source : Base de données des états financiers des sociétés de la BRVM (1998-2025) publiée par Mr Oumar Dicko, constituée à partir des publications de la BRVM. Les données ne sont pas redistribuées dans ce dépôt ; les obtenir auprès de l'auteur (https://lnkd.in/p/d2AjnHPd).
+- Ce projet n'est pas affilié à l'auteur de la base ni à la BRVM. Les contrôles et analyses ci-dessous sont les miens..
+- Les données brutes ne sont pas publiées dans ce dépôt : leurs conditions de réutilisation restent à vérifier.
+
+## Méthode
+
+1. **Contrôle de qualité** : couverture par société et par année, doublons, cohérence entre les trois tableaux, équilibre du bilan (aucun écart supérieur à 0,1 % sur 1 020 lignes comparables), détection des sauts anormaux, journal de 12 anomalies (`outputs/journal_anomalies.csv`).
+2. **Séparation des banques et des autres sociétés**, car leurs comptes ne se lisent pas de la même façon.
+3. **Calcul de ratios** : marges, ROE, ROA, endettement, liquidité, croissance, conversion en trésorerie, ratios bancaires.
+4. **ROE fiable** : calculé uniquement quand les capitaux propres dépassent 1 % du total d'actif (seuil choisi pour écarter les cas où le ratio n'a pas de sens).
+
+## Résultats préliminaires
+
+![ROE médian par année](outputs/roe_median_par_annee.png)
+
+- **Sociétés non financières** : le ROE médian passe d'environ 10 % (1998-2005) à environ 19 % (2006-2015 puis 2016-2025). Le ROA (3,6 %, 6,8 %, 5,8 %) et la marge nette (3,4 %, 5,4 %, 4,8 %) suivent la même tendance entre les deux premières périodes. Ce profil se retrouve quand on ne garde que les sociétés présentes au moins 20 ans.
+- **Banques** : le saut de 2006 et le sommet de 2016 se retrouvent dans les deux échantillons. Le niveau depuis 2017 dépend de l'échantillon retenu.
+
+![Échantillon stable](outputs/roe_median_echantillon_stable.png)
+
+## Limites
+
+- L'échantillon des sociétés présentes 20 ans ou plus favorise les survivantes (biais de survie).
+- Le nombre de banques par année est faible (entre 4 et 15), donc leurs médianes sont fragiles.
+- Une grande partie des sociétés est ivoirienne : les résultats ne représentent pas toute la zone UEMOA.
+- Les rapprochements avec des événements économiques sont des hypothèses, non testées.
+- Plusieurs anomalies de données restent à vérifier dans les rapports annuels.
+
+## Structure du dépôt
+
+- `notebooks/` : analyses (exploration, contrôles de qualité, ratios, graphiques)
+- `outputs/` : graphiques et journal des anomalies
+- `data/` : données (non publiées)
+- `requirements.txt` : bibliothèques utilisées
+
+## Reproduire
+
+Installer les bibliothèques avec `pip install -r requirements.txt`, placer le fichier de données dans `data/raw/`, puis exécuter le notebook `notebooks/01_exploration.ipynb`.
+
+Auteur : www.linkedin.com/in/wend-nongré-jean-théophile-ilboudo-a65357222
