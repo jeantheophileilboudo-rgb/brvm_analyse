@@ -1,7 +1,9 @@
 # Analyse financière des sociétés cotées à la BRVM (1998-2025)
 
 Projet d'analyse des états financiers de 50 sociétés cotées à la Bourse Régionale des Valeurs Mobilières (BRVM) : contrôle de la qualité des données, calcul de ratios et comparaison de la rentabilité par période, par type de société et par secteur.
+Ce projet exploite les états financiers de 50 sociétés sur la période 1998-2025 afin d'étudier l'évolution de leur rentabilité, d'identifier les différences de performance entre secteurs et d'examiner les facteurs financiers susceptibles d'influencer leur performance.
 
+L'objectif est de produire une analyse historique reproductible et de dégager des enseignements utiles à l'analyse fondamentale et à la prise de décision en investissement.
 ## Source des données et droits
 
 - Les données sont issues de la base des états financiers des sociétés de la BRVM (bilan, compte de résultat, flux de trésorerie, depuis 1998) publiée par Mr Oumar Dicko, à partir des publications de la BRVM : https://lnkd.in/p/d2AjnHPd.
