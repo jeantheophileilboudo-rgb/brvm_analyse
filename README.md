@@ -1,8 +1,16 @@
 # Analyse financière des sociétés cotées à la BRVM (1998-2025)
 
+<<<<<<< HEAD
 Projet d'analyse des états financiers de 50 sociétés cotées à la Bourse Régionale des Valeurs Mobilières (BRVM) : audit de la qualité des données, calcul de ratios, comparaison de la rentabilité dans le temps et par secteur, et tests de robustesse.
 
 > **Avertissement** : ce projet est descriptif. Il décrit des comptes passés et ne constitue ni un conseil ni une recommandation d'investissement.
+=======
+Projet d'analyse des états financiers de 50 sociétés cotées à la Bourse Régionale des Valeurs Mobilières (BRVM) : contrôle de la qualité des données, calcul de ratios et comparaison de la rentabilité par période, par type de société et par secteur.
+Ce projet exploite les états financiers de 50 sociétés sur la période 1998-2025 afin d'étudier l'évolution de leur rentabilité, d'identifier les différences de performance entre secteurs et d'examiner les facteurs financiers susceptibles d'influencer leur performance.
+
+L'objectif est de produire une analyse historique reproductible et de dégager des enseignements utiles à l'analyse fondamentale et à la prise de décision en investissement.
+## Source des données et droits
+>>>>>>> b6a22f9c59c0a875bacebfb4b45a94e86be92c2e
 
 ## Sommaire
 
@@ -218,6 +226,7 @@ La méthode A porte sur toutes les sociétés du secteur ; la méthode B exclut 
 | [`data/secteurs.csv`](data/secteurs.csv) | Classification sectorielle ; les données financières ne sont pas publiées |
 | [`requirements.txt`](requirements.txt) | Bibliothèques utilisées |
 
+<<<<<<< HEAD
 ## 8. Reproduction
 
 1. Installer les bibliothèques : `pip install -r requirements.txt`.
@@ -229,3 +238,6 @@ La méthode A porte sur toutes les sociétés du secteur ; la méthode B exclut 
 Ce projet est réalisé à des fins d'apprentissage et d'analyse descriptive. Il ne constitue pas un conseil en investissement.
 
 Auteur : [À COMPLÉTER : votre nom et un lien LinkedIn]
+=======
+Auteur : Wend-Nongré Jean Théophile Ilboudo / www.linkedin.com/in/wend-nongré-jean-théophile-ilboudo-a65357222
+>>>>>>> b6a22f9c59c0a875bacebfb4b45a94e86be92c2e
