@@ -1,51 +1,51 @@
-﻿Société;Type;Secteur;Source_secteur
-AIR LIQUIDE;Autre;Industriels;brvm.org.
-BANK OF AFRICA BF;Financière;Services financier;brvm.org.
-BANK OF AFRICA BN;Financière;Services financier;brvm.org.
-BANK OF AFRICA CI;Financière;Services financier;brvm.org.
-BANK OF AFRICA ML;Financière;Service financier;brvm.org.
-BANK OF AFRICA NG;Financière;Service financier;brvm.org.
-BANK OF AFRICA SN;Financière;Service financier;brvm.org.
-BERNABE CI;Autre;Consommation discétionnaire;brvm.org.
-BICI CI;Financière;Services financier;brvm.org.
-BOLLORE TRANSPORT & LOGISTICS;Autre;Industriels;brvm.org.
-CEDA CI;Autre;Consommation discétionnaire;Classé par moi.
-CFAO MOTORS CI;Autre;Consommation discétionnaire;brvm.org.
-CIE CI;Autre;Services publics;brvm.org.
-CORIS BANK INTERNATIONAL;Financière;Services financier;brvm.org.
-CROWN CI;Autre;Industriels;brvm.org.
-ECOBANK CI;Financière;Services financier;brvm.org.
-ECOBANK TG;Financière;Services financier;brvm.org.
-FILTISAC CI;Autre;Industriels;brvm.org.
-LNB;Autre;Consommation discétionnaire;brvm.org.
-MOVIS CI;Autre;Industriels;brvm.org.
-NEI CEDA CI;Autre;Consommation discétionnaire;brvm.org.
-NEI CI;Autre;Consommation discétionnaire;Classé par moi.
-NESTLE CI;Autre;Consommation de base;brvm.org.
-NSIA BANQUE;Financière;Services financier;brvm.org.
-ONATEL BF;Autre;Télécommunications;brvm.org.
-ORAGROUP;Financière;Services financier;brvm.org.
-ORANGE CI;Autre;Télécommunications;brvm.org.
-PALM CI;Autre;Consommation de base;brvm.org.
-SAFCA CI;Financière;Services financier;brvm.org.
-SAPH CI;Autre;Consommation de base;brvm.org.
-SERVAIR ABIDJAN CI;Autre;Consommation discétionnaire;brvm.org.
-SETAO CI;Autre; Industriels;brvm.org.
-SGCI;Financière;Services financier;brvm.org.
-SIB;Financière;Services financier;brvm.org.
-SICABLE;Autre;Industriels;brvm.org.
-SICOR;Autre;Consommation de base;brvm.org.
-SITAB;Autre;Consommation de base;brvm.org.
-SMB;Autre;Energie;brvm.org.
-SODECI;Autre;Services publics;brvm.org.
-SOGB;Autre;Consommation de base;brvm.org.
-SOLIBRA;Autre;Consommation de base;brvm.org.
-SONATEL;Autre;Télécommunications;brvm.org.
-SUCRIVOIRE;Autre;Consommation de base;brvm.org.
-TOTAL CI;Autre;Energie;brvm.org.
-TOTAL SENEGAL;Autre;Energie;brvm.org.
-TRACTAFRIC CI;Autre;Consommation discétionnaire;brvm.org.
-TRITURAF;Autre;Consommation de base;classé pa rmoi.
-UNILEVER CI;Autre;Consommation de base;brvm.org.
-UNIWAX CI;Autre;Consommation discétionnaire;brvm.org.
-VIVO ENERGY CI;Autre;Energie;brvm.org.
+﻿Société;Type;Secteur;Source_secteur;Premiere_annee;Derniere_annee;Statut
+AIR LIQUIDE;Autre;Industriels;brvm.org;2002;2025;
+BANK OF AFRICA BF;Financière;Services financiers;brvm.org;2008;2025;
+BANK OF AFRICA BN;Financière;Services financiers;brvm.org;1998;2025;
+BANK OF AFRICA CI;Financière;Services financiers;brvm.org;2008;2025;
+BANK OF AFRICA ML;Financière;Services financiers;brvm.org;2009;2025;
+BANK OF AFRICA NG;Financière;Services financiers;brvm.org;1998;2025;
+BANK OF AFRICA SN;Financière;Services financiers;brvm.org;2009;2025;
+BERNABE CI;Autre;Consommation discrétionnaire;brvm.org;1998;2025;
+BICI CI;Financière;Services financiers;brvm.org;1998;2025;
+BOLLORE TRANSPORT & LOGISTICS;Autre;Industriels;brvm.org;1998;2024;
+CEDA CI;Autre;Consommation discrétionnaire;Classé par moi;1998;2010;Fusionnée avec NEI CI, devient NEI CEDA CI en 2011 (source à ajouter)
+CFAO MOTORS CI;Autre;Consommation discrétionnaire;brvm.org;1998;2025;
+CIE CI;Autre;Services publics;brvm.org;2000;2025;
+CORIS BANK INTERNATIONAL;Financière;Services financiers;brvm.org;2021;2025;
+CROWN CI;Autre;Industriels;brvm.org;1998;2023;Données arrêtées avant 2024 : statut à vérifier
+ECOBANK CI;Financière;Services financiers;brvm.org;2018;2025;
+ECOBANK TG;Financière;Services financiers;brvm.org;2002;2025;
+FILTISAC CI;Autre;Industriels;brvm.org;1998;2025;
+LNB;Autre;Consommation discrétionnaire;brvm.org;2024;2025;
+MOVIS CI;Autre;Industriels;brvm.org;1998;2019;Données arrêtées avant 2024 : statut à vérifier
+NEI CEDA CI;Autre;Consommation discrétionnaire;brvm.org;2011;2025;Issue de la fusion de NEI CI et CEDA CI (source à ajouter)
+NEI CI;Autre;Consommation discrétionnaire;Classé par moi;1998;2010;Fusionnée avec CEDA CI, devient NEI CEDA CI en 2011 (source à ajouter)
+NESTLE CI;Autre;Consommation de base;brvm.org;1998;2025;
+NSIA BANQUE;Financière;Services financiers;brvm.org;2016;2025;
+ONATEL BF;Autre;Télécommunications;brvm.org;2007;2025;
+ORAGROUP;Financière;Services financiers;brvm.org;2017;2025;
+ORANGE CI;Autre;Télécommunications;brvm.org;2021;2025;
+PALM CI;Autre;Consommation de base;brvm.org;1998;2025;
+SAFCA CI;Financière;Services financiers;brvm.org;1998;2025;
+SAPH CI;Autre;Consommation de base;brvm.org;1998;2024;
+SERVAIR ABIDJAN CI;Autre;Consommation discrétionnaire;brvm.org;1998;2025;
+SETAO CI;Autre;Industriels;brvm.org;1998;2025;
+SGCI;Financière;Services financiers;brvm.org;2004;2025;
+SIB;Financière;Services financiers;brvm.org;2016;2025;
+SICABLE;Autre;Industriels;brvm.org;1998;2025;
+SICOR;Autre;Consommation de base;brvm.org;1998;2024;
+SITAB;Autre;Consommation de base;brvm.org;1998;2025;
+SMB;Autre;Énergie;brvm.org;1998;2025;
+SODECI;Autre;Services publics;brvm.org;1998;2025;
+SOGB;Autre;Consommation de base;brvm.org;1998;2025;
+SOLIBRA;Autre;Consommation de base;brvm.org;1998;2025;
+SONATEL;Autre;Télécommunications;brvm.org;1998;2025;
+SUCRIVOIRE;Autre;Consommation de base;brvm.org;2015;2025;
+TOTAL CI;Autre;Énergie;brvm.org;1998;2025;
+TOTAL SENEGAL;Autre;Énergie;brvm.org;2016;2025;
+TRACTAFRIC CI;Autre;Consommation discrétionnaire;brvm.org;1998;2025;
+TRITURAF;Autre;Consommation de base;Classé par moi;1998;2004;A quitté le marché (source : brvm.org)
+UNILEVER CI;Autre;Consommation de base;brvm.org;2006;2023;Données arrêtées avant 2024 : statut à vérifier
+UNIWAX CI;Autre;Consommation discrétionnaire;brvm.org;1998;2024;
+VIVO ENERGY CI;Autre;Énergie;brvm.org;2006;2025;
